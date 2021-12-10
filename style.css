@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(fonts/Outfit-Regular.ttf);
+}
+
+html{
+    background-color: hsl(217, 54%, 11%);
+}
+
+body{
+    background-color: hsl(216, 50%, 16%);
+    font-family: "Outfit";
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 10px hsl(216, 50%, 0%, 0.1);
+    font-size: 18px;
+    color: white;
+    width: 340px;
+    height: auto;
+    margin: 5% auto;
+    padding: 0 15px;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+}
+
+.author p{
+    padding: 0;
+    margin: 10px 0;
+}
+
+.greyish{
+    color: hsl(215, 51%, 70%);
+}
+.energy{
+    display: flex;
+}
+.author{
+    display: flex;
+    margin: 0;
+}
+
+.main-photo{
+    margin-top: 15px;
+    width: 310px;
+    height: 75%;
+    border-radius: 15px;
+}
+
+.cool-hover{
+    position: relative;
+}
+
+.cool-hover:hover .hover-view {
+    opacity: 1;
+}
+
+.cyan-hover:hover{
+    color: hsl(178, 100%, 50%);
+}
+.hover-view{
+    transition: .5s ease;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%, 0.4);
+    border-radius: 15px;
+    padding: 131px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+#effort{
+    padding-right: 110px;
+    color: hsl(178, 100%, 50%);
+}
+
+#author-pic{
+    width: 30px;
+    height: 30px;
+    border: white solid 1px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
